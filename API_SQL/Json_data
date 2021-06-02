@@ -1,0 +1,108 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+For this mysql api we need to choose POST method inside POSTMAN.
+
+And we did not have to use different api for each DB operation.
+=============================================================================================
+API : http://127.0.0.1:5000/sql_operations_api
+==============================================================================================
+Use API mentioned above
+
+==============================================================================================
+
+Json data for each operation.
+
+==============================================================================================
+1. For creating table.
+
+{
+    "host":"localhost",
+    "user":"root",
+    "passwd":"<"Enter Your password">",
+    "db_name":"employe_dat4",
+    "table_name":"emp_details",
+    "operation_to_perform": "create_table",
+    "table_elements":{"id":"INT","name":"VARCHAR(20)","phone":"VARCHAR(20)", "email":"VARCHAR(20)"}
+
+}
+
+==============================================================================================
+2. For inserting data into table.
+
+{
+    "host":"localhost",
+    "user":"root",
+    "passwd":"<"Enter Your password">",
+    "db_name":"employe_dat4",
+    "table_name":"emp_details",
+    "operation_to_perform": "insert_data_table",
+    "data_to_insert":{"id":4,"name":"Ramcharan","phone":"114814221444", "email":"hh@nssc.com"}
+
+}
+
+==============================================================================================
+3 For updating data into table
+
+{
+    "host":"localhost",
+    "user":"root",
+    "passwd":"<"Enter Your password">",
+    "db_name":"employe_dat4",
+    "table_name":"emp_details",
+    "operation_to_perform": "update_data_into_table",
+    "data_to_update":{"phone":"99365245884"},
+    "selection_criteria": {"id":2,"name":"Ram"}
+
+}
+
+================================================================================================
+4. For uploading bulk data.
+
+In this you can choose any csv or txt(values must be comma separated) file it will automatically create provided database
+and provided table name for that file.
+
+And after that insert data into that.
+
+{
+    "host":"localhost",
+    "user":"root",
+    "passwd":"<"Enter Your password">",
+    "operation_to_perform":"bulk_insertion_into_sql",
+    "db_name":"carbontube",
+    "table_name":"carbdetails45",
+    "file_location":"C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv"
+}
+
+===============================================================================================
+5. For deleting data from table
+
+{
+    "host":"localhost",
+    "user":"root",
+    "passwd":"<"Enter Your password">",
+    "db_name":"employe_dat4",
+    "table_name":"emp_details",
+    "operation_to_perform": "delete_data_from_table",
+    "selection_criteria":{"id":4,"name":"Ramcharan"}
+
+}
+
+===================================================================================================
+6. For downloading data into csv file from mysql
+
+{
+    "host":"localhost",
+    "user":"root",
+    "passwd":"<"Enter Your password">",
+    "db_name":"carbontube",
+    "table_name":"carbdetails",
+    "operation_to_perform": "download_data_from_table",
+    "selection_criteria":"",
+    "file_name_for_download":"test1",
+    "file_download_location":"C:\\Users\\surya\\Desktop"
+
+}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
