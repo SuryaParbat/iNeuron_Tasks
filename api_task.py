@@ -2,7 +2,6 @@ import mysql.connector as connection
 from flask import Flask, render_template, request, jsonify
 import csv
 import pandas as pd
-
 app = Flask(__name__)
 
 
