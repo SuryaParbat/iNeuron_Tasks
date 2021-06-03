@@ -1,0 +1,1562 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:17:03.486145
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.649160
+                End Time : 2021-06-02 23:17:04.135305
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:17:04.135305
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_insertion
+                Called Function Arguments : {'data_to_insert': {'id': 4, 'name': 'Ramcharan', 'phone': '114814221444', 'email': 'hh@nssc.com'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-02 23:17:04.135305
+                
+DEBUG:root: Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details
+DEBUG:root:
+                Start time : 2021-06-02 23:17:04.137304
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : insert_data_in_mysql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000217A6C8E670>, 'db_name': 'employe_dat4', 'table_name': 'emp_details', 'col_names': 'id, name, phone, email', 'col_data': '4, "Ramcharan", "114814221444", "hh@nssc.com"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:01.163593
+                End Time : 2021-06-02 23:17:05.300897
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:17:03.485158
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:01.820735
+                End Time : 2021-06-02 23:17:05.305893
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:17:05] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:20:47.630453
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.280251
+                End Time : 2021-06-02 23:20:47.910704
+                
+DEBUG:root: Data successfully reformatted for insertion
+
+DEBUG:root:
+                Start time : 2021-06-02 23:20:47.910704
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_insertion
+                Called Function Arguments : {'data_to_insert': {'id': 4, 'name': 'Ramcharan', 'phone': '114814221444', 'email': 'hh@nssc.com'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.000999
+                End Time : 2021-06-02 23:20:47.911703
+                
+DEBUG:root: Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details
+DEBUG:root:
+                Start time : 2021-06-02 23:20:47.911703
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : insert_data_in_mysql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000001407BCCE670>, 'db_name': 'employe_dat4', 'table_name': 'emp_details', 'col_names': 'id, name, phone, email', 'col_data': '4, "Ramcharan", "114814221444", "hh@nssc.com"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.189311
+                End Time : 2021-06-02 23:20:48.101014
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:20:47.629454
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.476561
+                End Time : 2021-06-02 23:20:48.106015
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:20:48] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:35:54.567495
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.408982
+                End Time : 2021-06-02 23:35:54.976477
+                
+DEBUG:root: Database : employe_dat4 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-02 23:35:54.977478
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_msql_db
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33E670>, 'db_name': 'employe_dat4'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.071918
+                End Time : 2021-06-02 23:35:55.049396
+                
+DEBUG:root: table_elements reformatted successfully
+DEBUG:root:
+                Start time : 2021-06-02 23:35:55.050386
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_structure
+                Called Function Arguments : {'table_elements': {'id': 'INT', 'name': 'VARCHAR(20)', 'phone': 'VARCHAR(20)', 'email': 'VARCHAR(20)'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.023006
+                End Time : 2021-06-02 23:35:55.073392
+                
+DEBUG:root: Table : emp_details45 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-02 23:35:55.074388
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_mysql_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33E670>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'table_query': 'id INT, name VARCHAR(20), phone VARCHAR(20), email VARCHAR(20)'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:04.482602
+                End Time : 2021-06-02 23:35:59.556990
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:35:54.566537
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:04.996454
+                End Time : 2021-06-02 23:35:59.562991
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:35:59] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:36:26.809375
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.200703
+                End Time : 2021-06-02 23:36:27.010078
+                
+DEBUG:root: Data successfully reformatted for insertion
+
+DEBUG:root:
+                Start time : 2021-06-02 23:36:27.011059
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_insertion
+                Called Function Arguments : {'data_to_insert': {'id': 4, 'name': 'Ramcharan', 'phone': '114814221444', 'email': 'hh@nssc.com'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-02 23:36:27.011059
+                
+DEBUG:root: Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details45
+DEBUG:root:
+                Start time : 2021-06-02 23:36:27.012139
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : insert_data_in_mysql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33E970>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'col_names': 'id, name, phone, email', 'col_data': '4, "Ramcharan", "114814221444", "hh@nssc.com"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.793625
+                End Time : 2021-06-02 23:36:27.805764
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:36:26.808379
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:01.001386
+                End Time : 2021-06-02 23:36:27.809765
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:36:27] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:36:30.359882
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.238064
+                End Time : 2021-06-02 23:36:30.597946
+                
+DEBUG:root: Data successfully reformatted for insertion
+
+DEBUG:root:
+                Start time : 2021-06-02 23:36:30.598948
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_insertion
+                Called Function Arguments : {'data_to_insert': {'id': 4, 'name': 'Ramcharan', 'phone': '114814221444', 'email': 'hh@nssc.com'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.000998
+                End Time : 2021-06-02 23:36:30.599946
+                
+DEBUG:root: Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details45
+DEBUG:root:
+                Start time : 2021-06-02 23:36:30.600948
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : insert_data_in_mysql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33EAC0>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'col_names': 'id, name, phone, email', 'col_data': '4, "Ramcharan", "114814221444", "hh@nssc.com"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.343090
+                End Time : 2021-06-02 23:36:30.944038
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:36:30.358888
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.593144
+                End Time : 2021-06-02 23:36:30.952032
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:36:30] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:36:41.901367
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.330072
+                End Time : 2021-06-02 23:36:42.231439
+                
+DEBUG:root: Data successfully reformatted for update
+
+DEBUG:root:
+                Start time : 2021-06-02 23:36:42.249448
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_update
+                Called Function Arguments : {'data_to_update': {'phone': '99365245884'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.001000
+                End Time : 2021-06-02 23:36:42.250448
+                
+DEBUG:root: Data successfully reformatted selection_criteria
+DEBUG:root:
+                Start time : 2021-06-02 23:36:42.251447
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_selection_criteria
+                Called Function Arguments : {'selection_criteria': {'id': 2, 'name': 'Ram'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-02 23:36:42.251447
+                
+DEBUG:root: Data Successfully updated inside
+Database : employe_dat4
+ Table Name : emp_details45
+
+DEBUG:root:
+                Start time : 2021-06-02 23:36:42.251447
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : update_data_in_sql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33E850>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'update_col': 'phone = "99365245884"', 'selection_col': 'where id = 2 and name = "Ram"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.039027
+                End Time : 2021-06-02 23:36:42.290474
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:36:41.900367
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.396088
+                End Time : 2021-06-02 23:36:42.296455
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:36:42] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:36:54.282215
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.304083
+                End Time : 2021-06-02 23:36:54.586298
+                
+DEBUG:root: reformat_file_for_bulk_data_insertion is done
+DEBUG:root:
+                Start time : 2021-06-02 23:36:54.587296
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_file_for_bulk_data_insertion
+                Called Function Arguments : {'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.059012
+                End Time : 2021-06-02 23:36:54.646308
+                
+DEBUG:root: Database : carbontube is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-02 23:36:54.646308
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_msql_db
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33ED90>, 'db_name': 'carbontube'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.061015
+                End Time : 2021-06-02 23:36:54.707323
+                
+DEBUG:root: Table : carbdetails46 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-02 23:36:54.708322
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_mysql_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33ED90>, 'db_name': 'carbontube', 'table_name': 'carbdetails46', 'table_query': 'Chiralindicen VARCHAR(20),Chiralindicem VARCHAR(20),Initialatomiccoordinateu VARCHAR(20),Initialatomiccoordinatev VARCHAR(20),Initialatomiccoordinatew VARCHAR(20),Calculatedatomiccoordinatesu VARCHAR(20),Calculatedatomiccoordinatesv VARCHAR(20),Calculatedatomiccoordinatesw VARCHAR(20)'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:01.798990
+                End Time : 2021-06-02 23:36:56.507312
+                
+DEBUG:root: Total 10721 records inserted successfully
+DEBUG:root:
+                Start time : 2021-06-02 23:36:56.508312
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : inserting_bulk_data_in_sql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33ED90>, 'db_name': 'carbontube', 'table_name': 'carbdetails46', 'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:30.043441
+                End Time : 2021-06-02 23:37:26.551753
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:36:54.281215
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:32.276541
+                End Time : 2021-06-02 23:37:26.557756
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:37:26] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:root: Data successfully reformatted selection_criteria
+DEBUG:root:
+                Start time : 2021-06-02 23:37:44.715319
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_selection_criteria
+                Called Function Arguments : {'selection_criteria': {'id': 4, 'name': 'Ramcharan'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.000998
+                End Time : 2021-06-02 23:37:44.716317
+                
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:37:44.716317
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.406561
+                End Time : 2021-06-02 23:37:45.122878
+                
+DEBUG:root: Data where id = 4 and name = "Ramcharan" is successfully deleted from database employe_dat4 and table emp_details45
+DEBUG:root:
+                Start time : 2021-06-02 23:37:45.123884
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : delete_data_from_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33ED30>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'selection_col': 'where id = 4 and name = "Ramcharan"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.391820
+                End Time : 2021-06-02 23:37:45.515704
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:37:44.714321
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.808383
+                End Time : 2021-06-02 23:37:45.522704
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:37:45] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:38:12.399868
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.440112
+                End Time : 2021-06-02 23:38:12.839980
+                
+DEBUG:root: All records successfully downloaded at C:\Users\surya\Desktop\test2.csv
+DEBUG:root:
+                Start time : 2021-06-02 23:38:12.840980
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : download_data_from_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB374190>, 'db_name': 'carbontube', 'table_name': 'carbdetails45', 'selection_col': '', 'file_name_for_download': 'test2', 'file_download_location': 'C:\\Users\\surya\\Desktop'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:06.716609
+                End Time : 2021-06-02 23:38:19.557589
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:38:12.398868
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:07.166721
+                End Time : 2021-06-02 23:38:19.565589
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:38:19] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:39:03.266253
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.335084
+                End Time : 2021-06-02 23:39:03.601337
+                
+DEBUG:root: Data successfully reformatted for insertion
+
+DEBUG:root:
+                Start time : 2021-06-02 23:39:03.602338
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_insertion
+                Called Function Arguments : {'data_to_insert': {'id': 4, 'name': 'Ramcharan', 'phone': '114814221444', 'email': 'hh@nssc.com'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-02 23:39:03.602338
+                
+DEBUG:root: Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details45
+DEBUG:root:
+                Start time : 2021-06-02 23:39:03.603336
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : insert_data_in_mysql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33ED00>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'col_names': 'id, name, phone, email', 'col_data': '4, "Ramcharan", "114814221444", "hh@nssc.com"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.223060
+                End Time : 2021-06-02 23:39:03.826396
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:39:03.265252
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.569142
+                End Time : 2021-06-02 23:39:03.834394
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:39:03] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:39:09.034546
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.210073
+                End Time : 2021-06-02 23:39:09.244619
+                
+DEBUG:root: Data successfully reformatted for insertion
+
+DEBUG:root:
+                Start time : 2021-06-02 23:39:09.245601
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_insertion
+                Called Function Arguments : {'data_to_insert': {'id': 3, 'name': 'Ramcharan', 'phone': '114814221444', 'email': 'hh@nssc.com'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-02 23:39:09.245601
+                
+DEBUG:root: Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details45
+DEBUG:root:
+                Start time : 2021-06-02 23:39:09.246602
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : insert_data_in_mysql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33E610>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'col_names': 'id, name, phone, email', 'col_data': '3, "Ramcharan", "114814221444", "hh@nssc.com"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.363871
+                End Time : 2021-06-02 23:39:09.610473
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:39:09.033546
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.582927
+                End Time : 2021-06-02 23:39:09.616473
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:39:09] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:39:35.988845
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.258773
+                End Time : 2021-06-02 23:39:36.247618
+                
+DEBUG:root: Data successfully reformatted for insertion
+
+DEBUG:root:
+                Start time : 2021-06-02 23:39:36.247618
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_insertion
+                Called Function Arguments : {'data_to_insert': {'id': 2, 'name': 'Ram', 'phone': '114814221444255', 'email': 'hh@nssc.com'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.001002
+                End Time : 2021-06-02 23:39:36.248620
+                
+DEBUG:root: Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details45
+DEBUG:root:
+                Start time : 2021-06-02 23:39:36.248620
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : insert_data_in_mysql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33EC40>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'col_names': 'id, name, phone, email', 'col_data': '2, "Ram", "114814221444255", "hh@nssc.com"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.199683
+                End Time : 2021-06-02 23:39:36.448303
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:39:35.988845
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.466456
+                End Time : 2021-06-02 23:39:36.455301
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:39:36] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:39:59.664535
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.403043
+                End Time : 2021-06-02 23:40:00.067578
+                
+DEBUG:root: Data successfully reformatted for update
+
+DEBUG:root:
+                Start time : 2021-06-02 23:40:00.068579
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_update
+                Called Function Arguments : {'data_to_update': {'phone': '99365245884'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-02 23:40:00.068579
+                
+DEBUG:root: Data successfully reformatted selection_criteria
+DEBUG:root:
+                Start time : 2021-06-02 23:40:00.069579
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_selection_criteria
+                Called Function Arguments : {'selection_criteria': {'id': 2, 'name': 'Ram'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-02 23:40:00.069579
+                
+DEBUG:root: Data Successfully updated inside
+Database : employe_dat4
+ Table Name : emp_details45
+
+DEBUG:root:
+                Start time : 2021-06-02 23:40:00.069579
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : update_data_in_sql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33EDF0>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'update_col': 'phone = "99365245884"', 'selection_col': 'where id = 2 and name = "Ram"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.113533
+                End Time : 2021-06-02 23:40:00.183112
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:39:59.663538
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.527574
+                End Time : 2021-06-02 23:40:00.191112
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:40:00] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:root: Data successfully reformatted selection_criteria
+DEBUG:root:
+                Start time : 2021-06-02 23:40:15.973027
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_selection_criteria
+                Called Function Arguments : {'selection_criteria': {'id': 4, 'name': 'Ramcharan'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.001002
+                End Time : 2021-06-02 23:40:15.974029
+                
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-02 23:40:15.975028
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.481149
+                End Time : 2021-06-02 23:40:16.456177
+                
+DEBUG:root: Data where id = 4 and name = "Ramcharan" is successfully deleted from database employe_dat4 and table emp_details45
+DEBUG:root:
+                Start time : 2021-06-02 23:40:16.457220
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : delete_data_from_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000022CFB33EBE0>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'selection_col': 'where id = 4 and name = "Ramcharan"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.325418
+                End Time : 2021-06-02 23:40:16.782638
+                
+DEBUG:root:
+                Start time : 2021-06-02 23:40:15.973027
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.816610
+                End Time : 2021-06-02 23:40:16.789637
+                
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2021 23:40:16] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 20:42:46.917373
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:01.948525
+                End Time : 2021-06-03 20:42:48.865898
+                
+DEBUG:root: reformat_file_for_bulk_data_insertion is done
+DEBUG:root:
+                Start time : 2021-06-03 20:42:48.869931
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_file_for_bulk_data_insertion
+                Called Function Arguments : {'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.128067
+                End Time : 2021-06-03 20:42:48.997998
+                
+DEBUG:root: Database : carbontube is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:42:49.001930
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_msql_db
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000259FD8DF670>, 'db_name': 'carbontube'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.240069
+                End Time : 2021-06-03 20:42:49.241999
+                
+DEBUG:root: Table : carbdetails47 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:42:49.241999
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_mysql_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000259FD8DF670>, 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'table_query': 'Chiralindicen VARCHAR(20),Chiralindicem VARCHAR(20),Initialatomiccoordinateu VARCHAR(20),Initialatomiccoordinatev VARCHAR(20),Initialatomiccoordinatew VARCHAR(20),Calculatedatomiccoordinatesu VARCHAR(20),Calculatedatomiccoordinatesv VARCHAR(20),Calculatedatomiccoordinatesw VARCHAR(20)'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:05.929515
+                End Time : 2021-06-03 20:42:55.171514
+                
+DEBUG:root: Total 10721 records inserted successfully
+DEBUG:root:
+                Start time : 2021-06-03 20:42:55.171514
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : inserting_bulk_data_in_sql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000259FD8DF670>, 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:31.153125
+                End Time : 2021-06-03 20:43:26.324639
+                
+ERROR:root: ERROR IN : def post() method where condition is bulk_insertion_into_sql and ERROR = decoding str is not supported
+DEBUG:root:
+                Start time : 2021-06-03 20:42:46.917373
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:39.423269
+                End Time : 2021-06-03 20:43:26.340642
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:43:26] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 20:45:43.084782
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.573137
+                End Time : 2021-06-03 20:45:43.657919
+                
+DEBUG:root: reformat_file_for_bulk_data_insertion is done
+DEBUG:root:
+                Start time : 2021-06-03 20:45:43.661924
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_file_for_bulk_data_insertion
+                Called Function Arguments : {'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 20:45:43.661924
+                
+DEBUG:root: Database : carbontube is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:45:43.661924
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_msql_db
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000002AF5501F670>, 'db_name': 'carbontube'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.156038
+                End Time : 2021-06-03 20:45:43.817962
+                
+DEBUG:root: Table : carbdetails47 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:45:43.817962
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_mysql_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000002AF5501F670>, 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'table_query': 'Chiralindicen VARCHAR(20),Chiralindicem VARCHAR(20),Initialatomiccoordinateu VARCHAR(20),Initialatomiccoordinatev VARCHAR(20),Initialatomiccoordinatew VARCHAR(20),Calculatedatomiccoordinatesu VARCHAR(20),Calculatedatomiccoordinatesv VARCHAR(20),Calculatedatomiccoordinatesw VARCHAR(20)'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.300083
+                End Time : 2021-06-03 20:45:44.118045
+                
+DEBUG:root: Total 10721 records inserted successfully
+DEBUG:root:
+                Start time : 2021-06-03 20:45:44.118045
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : inserting_bulk_data_in_sql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000002AF5501F670>, 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:25.550987
+                End Time : 2021-06-03 20:46:09.669032
+                
+DEBUG:root:
+                Start time : 2021-06-03 20:45:43.084782
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:27.388593
+                End Time : 2021-06-03 20:46:10.473375
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:46:10] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 20:48:32.257188
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.352581
+                End Time : 2021-06-03 20:48:32.609769
+                
+DEBUG:root: reformat_file_for_bulk_data_insertion is done
+DEBUG:root:
+                Start time : 2021-06-03 20:48:32.609769
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_file_for_bulk_data_insertion
+                Called Function Arguments : {'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.004030
+                End Time : 2021-06-03 20:48:32.613799
+                
+DEBUG:root: Database : carbontube is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:48:32.613799
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_msql_db
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000024CFD5BF670>, 'db_name': 'carbontube'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.075993
+                End Time : 2021-06-03 20:48:32.689792
+                
+DEBUG:root: Table : carbdetails47 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:48:32.689792
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_mysql_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000024CFD5BF670>, 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'table_query': 'Chiralindicen VARCHAR(20),Chiralindicem VARCHAR(20),Initialatomiccoordinateu VARCHAR(20),Initialatomiccoordinatev VARCHAR(20),Initialatomiccoordinatew VARCHAR(20),Calculatedatomiccoordinatesu VARCHAR(20),Calculatedatomiccoordinatesv VARCHAR(20),Calculatedatomiccoordinatesw VARCHAR(20)'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.256068
+                End Time : 2021-06-03 20:48:32.945860
+                
+DEBUG:root: Total 10721 records inserted successfully
+DEBUG:root:
+                Start time : 2021-06-03 20:48:32.945860
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : inserting_bulk_data_in_sql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000024CFD5BF670>, 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:22.566567
+                End Time : 2021-06-03 20:48:55.512427
+                
+DEBUG:root: Database : carbontube is Created Successfully
+
+DEBUG:root: Table : carbdetails47 is Created Successfully
+
+DEBUG:root:Total 10721 records inserted successfully
+DEBUG:root:
+                Start time : 2021-06-03 20:48:32.253186
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:23.263121
+                End Time : 2021-06-03 20:48:55.516307
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:48:55] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 20:52:44.680479
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.433829
+                End Time : 2021-06-03 20:52:45.114308
+                
+DEBUG:root: Database : employe_dat4 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:52:45.118309
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_msql_db
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000001E8B35FF670>, 'db_name': 'employe_dat4'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.120104
+                End Time : 2021-06-03 20:52:45.238413
+                
+DEBUG:root: table_elements reformatted successfully
+DEBUG:root:
+                Start time : 2021-06-03 20:52:45.238413
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_structure
+                Called Function Arguments : {'table_elements': {'id': 'INT', 'name': 'VARCHAR(20)', 'phone': 'VARCHAR(20)', 'email': 'VARCHAR(20)'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 20:52:45.238413
+                
+DEBUG:root: Table : emp_details45 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:52:45.238413
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_mysql_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000001E8B35FF670>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'table_query': 'id INT, name VARCHAR(20), phone VARCHAR(20), email VARCHAR(20)'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.155971
+                End Time : 2021-06-03 20:52:45.394384
+                
+DEBUG:root: Database : employe_dat4 is Created Successfully
+
+DEBUG:root: Table : emp_details45 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:52:44.680479
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.721906
+                End Time : 2021-06-03 20:52:45.402385
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:52:45] "POST /sql_operations_api HTTP/1.1" 200 -
+ERROR:root: please select valid operation_to_perform
+DEBUG:root:
+                Start time : 2021-06-03 20:52:52.529569
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.003998
+                End Time : 2021-06-03 20:52:52.533567
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:52:52] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 20:52:59.537343
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.288384
+                End Time : 2021-06-03 20:52:59.825727
+                
+DEBUG:root: Database : employe_dat4 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:52:59.829758
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_msql_db
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000001E8B35FFA90>, 'db_name': 'employe_dat4'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.038500
+                End Time : 2021-06-03 20:52:59.868258
+                
+DEBUG:root: table_elements reformatted successfully
+DEBUG:root:
+                Start time : 2021-06-03 20:52:59.868258
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_structure
+                Called Function Arguments : {'table_elements': {'id': 'INT', 'name': 'VARCHAR(20)', 'phone': 'VARCHAR(20)', 'email': 'VARCHAR(20)'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 20:52:59.868258
+                
+DEBUG:root: Table : emp_details45 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:52:59.872263
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_mysql_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000001E8B35FFA90>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'table_query': 'id INT, name VARCHAR(20), phone VARCHAR(20), email VARCHAR(20)'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.039399
+                End Time : 2021-06-03 20:52:59.911662
+                
+DEBUG:root: Database : employe_dat4 is Created Successfully
+
+DEBUG:root: Table : emp_details45 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 20:52:59.537343
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.382322
+                End Time : 2021-06-03 20:52:59.919665
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:52:59] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 20:54:08.814103
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.408537
+                End Time : 2021-06-03 20:54:09.222640
+                
+DEBUG:root: Data successfully reformatted for insertion
+
+DEBUG:root:
+                Start time : 2021-06-03 20:54:09.226634
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_insertion
+                Called Function Arguments : {'data_to_insert': {'id': 2, 'name': 'Ram', 'phone': '114814221444255', 'email': 'hh@nssc.com'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 20:54:09.226634
+                
+DEBUG:root: Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details45
+DEBUG:root:
+                Start time : 2021-06-03 20:54:09.226634
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : insert_data_in_mysql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000023471CFF670>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'col_names': 'id, name, phone, email', 'col_data': '2, "Ram", "114814221444255", "hh@nssc.com"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.248067
+                End Time : 2021-06-03 20:54:09.474701
+                
+DEBUG:root:Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details45
+DEBUG:root:
+                Start time : 2021-06-03 20:54:08.814103
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.668604
+                End Time : 2021-06-03 20:54:09.482707
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:54:09] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root: ERROR IN : def post() method, ERROR : 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+DEBUG:root:
+                Start time : 2021-06-03 20:58:48.125431
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.043982
+                End Time : 2021-06-03 20:58:48.169413
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:58:48] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 20:59:10.649263
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.368099
+                End Time : 2021-06-03 20:59:11.017362
+                
+DEBUG:root: Data successfully reformatted for insertion
+
+DEBUG:root:
+                Start time : 2021-06-03 20:59:11.021361
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_insertion
+                Called Function Arguments : {'data_to_insert': {'id': 2, 'name': 'Ram', 'phone': '114814221444255', 'email': 'hh@nssc.com'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 20:59:11.021361
+                
+DEBUG:root: Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details45
+DEBUG:root:
+                Start time : 2021-06-03 20:59:11.021361
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : insert_data_in_mysql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000001E366C6F3D0>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'col_names': 'id, name, phone, email', 'col_data': '2, "Ram", "114814221444255", "hh@nssc.com"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.272076
+                End Time : 2021-06-03 20:59:11.293437
+                
+DEBUG:root:Data Successfully Inserted inside Database : employe_dat4 and Table Name : emp_details45
+DEBUG:root:
+                Start time : 2021-06-03 20:59:10.649263
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.656177
+                End Time : 2021-06-03 20:59:11.305440
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:59:11] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 20:59:54.801578
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.272053
+                End Time : 2021-06-03 20:59:55.073631
+                
+DEBUG:root: Data successfully reformatted for update
+
+DEBUG:root:
+                Start time : 2021-06-03 20:59:55.073631
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_update
+                Called Function Arguments : {'data_to_update': {'phone': '99365245884'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 20:59:55.073631
+                
+DEBUG:root: Data successfully reformatted selection_criteria
+DEBUG:root:
+                Start time : 2021-06-03 20:59:55.073631
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_selection_criteria
+                Called Function Arguments : {'selection_criteria': {'id': 2, 'name': 'Ram'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 20:59:55.073631
+                
+DEBUG:root: Data Successfully updated inside
+Database : employe_dat4
+ Table Name : emp_details45
+
+DEBUG:root:
+                Start time : 2021-06-03 20:59:55.073631
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : update_data_in_sql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000214789CF670>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'update_col': 'phone = "99365245884"', 'selection_col': 'where id = 2 and name = "Ram"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.224064
+                End Time : 2021-06-03 20:59:55.297695
+                
+DEBUG:root:Data Successfully updated inside
+Database : employe_dat4
+ Table Name : emp_details45
+
+DEBUG:root:
+                Start time : 2021-06-03 20:59:54.801578
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.500119
+                End Time : 2021-06-03 20:59:55.301697
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 20:59:55] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 21:00:07.092720
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.200059
+                End Time : 2021-06-03 21:00:07.292779
+                
+DEBUG:root: Data successfully reformatted for update
+
+DEBUG:root:
+                Start time : 2021-06-03 21:00:07.296775
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_table_data_for_update
+                Called Function Arguments : {'data_to_update': {'phone': '99365245884'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 21:00:07.296775
+                
+DEBUG:root: Data successfully reformatted selection_criteria
+DEBUG:root:
+                Start time : 2021-06-03 21:00:07.296775
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_selection_criteria
+                Called Function Arguments : {'selection_criteria': {'id': 2, 'name': 'Ram'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 21:00:07.296775
+                
+ERROR:root:ERROR IN : upade_data_in_sql(), ERROR : 1146 (42S02): Table 'employe_dat.emp_details45' doesn't exist
+DEBUG:root:
+                Start time : 2021-06-03 21:00:07.296775
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : update_data_in_sql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000214789CF970>, 'db_name': 'employe_dat', 'table_name': 'emp_details45', 'update_col': 'phone = "99365245884"', 'selection_col': 'where id = 2 and name = "Ram"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.276075
+                End Time : 2021-06-03 21:00:07.572850
+                
+DEBUG:root:ERROR IN : upade_data_in_sql(), ERROR : 1146 (42S02): Table 'employe_dat.emp_details45' doesn't exist
+DEBUG:root:
+                Start time : 2021-06-03 21:00:07.092720
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.484131
+                End Time : 2021-06-03 21:00:07.576851
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 21:00:07] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 21:01:12.088581
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.376103
+                End Time : 2021-06-03 21:01:12.464684
+                
+DEBUG:root: reformat_file_for_bulk_data_insertion is done
+DEBUG:root:
+                Start time : 2021-06-03 21:01:12.464684
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_file_for_bulk_data_insertion
+                Called Function Arguments : {'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 21:01:12.464684
+                
+DEBUG:root: Database : carbontube is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 21:01:12.468709
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_msql_db
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000214789CFA60>, 'db_name': 'carbontube'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.051986
+                End Time : 2021-06-03 21:01:12.520695
+                
+DEBUG:root: Table : carbdetails47 is Created Successfully
+
+DEBUG:root:
+                Start time : 2021-06-03 21:01:12.524698
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_mysql_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000214789CFA60>, 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'table_query': 'Chiralindicen VARCHAR(20),Chiralindicem VARCHAR(20),Initialatomiccoordinateu VARCHAR(20),Initialatomiccoordinatev VARCHAR(20),Initialatomiccoordinatew VARCHAR(20),Calculatedatomiccoordinatesu VARCHAR(20),Calculatedatomiccoordinatesv VARCHAR(20),Calculatedatomiccoordinatesw VARCHAR(20)'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.204060
+                End Time : 2021-06-03 21:01:12.728758
+                
+DEBUG:root: Total 10721 records inserted successfully
+DEBUG:root:
+                Start time : 2021-06-03 21:01:12.728758
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : inserting_bulk_data_in_sql
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000214789CFA60>, 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:23.281322
+                End Time : 2021-06-03 21:01:36.010080
+                
+DEBUG:root: Database : carbontube is Created Successfully
+
+DEBUG:root: Table : carbdetails47 is Created Successfully
+
+DEBUG:root:Total 10721 records inserted successfully
+DEBUG:root:
+                Start time : 2021-06-03 21:01:12.084581
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:23.929498
+                End Time : 2021-06-03 21:01:36.014079
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 21:01:36] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+ERROR:root: ERROR IN : establish_conn, ERROR : 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+DEBUG:root:
+                Start time : 2021-06-03 21:01:40.854334
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc73'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.464128
+                End Time : 2021-06-03 21:01:41.318462
+                
+DEBUG:root: reformat_file_for_bulk_data_insertion is done
+DEBUG:root:
+                Start time : 2021-06-03 21:01:41.318462
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_file_for_bulk_data_insertion
+                Called Function Arguments : {'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 21:01:41.318462
+                
+ERROR:root: ERROR IN : create_msql_db : 'str' object has no attribute 'cursor'
+
+DEBUG:root:
+                Start time : 2021-06-03 21:01:41.322464
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_msql_db
+                Called Function Arguments : {'mydb': " ERROR IN : establish_conn, ERROR : 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)", 'db_name': 'carbontube'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 21:01:41.322464
+                
+ERROR:root: ERROR IN : create_mysql_table : 'str' object has no attribute 'cursor'
+
+DEBUG:root:
+                Start time : 2021-06-03 21:01:41.322464
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : create_mysql_table
+                Called Function Arguments : {'mydb': " ERROR IN : establish_conn, ERROR : 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)", 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'table_query': 'Chiralindicen VARCHAR(20),Chiralindicem VARCHAR(20),Initialatomiccoordinateu VARCHAR(20),Initialatomiccoordinatev VARCHAR(20),Initialatomiccoordinatew VARCHAR(20),Calculatedatomiccoordinatesu VARCHAR(20),Calculatedatomiccoordinatesv VARCHAR(20),Calculatedatomiccoordinatesw VARCHAR(20)'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 21:01:41.322464
+                
+ERROR:root:ERROR IN : inserting_bulk_data_in_sql(), ERROR : 'str' object has no attribute 'cursor'
+DEBUG:root:
+                Start time : 2021-06-03 21:01:41.322464
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : inserting_bulk_data_in_sql
+                Called Function Arguments : {'mydb': " ERROR IN : establish_conn, ERROR : 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)", 'db_name': 'carbontube', 'table_name': 'carbdetails47', 'file_location': 'C:\\Users\\surya\\Desktop\\iNeuron\\MySQL\\HomeWork_15-5-21\\CarbonNanotubeUpdated_test1.csv'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.004000
+                End Time : 2021-06-03 21:01:41.326464
+                
+DEBUG:root:ERROR IN : create_msql_db : 'str' object has no attribute 'cursor'
+
+DEBUG:root:ERROR IN : create_mysql_table : 'str' object has no attribute 'cursor'
+
+DEBUG:root:ERROR IN : inserting_bulk_data_in_sql(), ERROR : 'str' object has no attribute 'cursor'
+DEBUG:root:
+                Start time : 2021-06-03 21:01:40.854334
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.472130
+                End Time : 2021-06-03 21:01:41.326464
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 21:01:41] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:root: Data successfully reformatted selection_criteria
+DEBUG:root:
+                Start time : 2021-06-03 21:02:21.964690
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : reformat_selection_criteria
+                Called Function Arguments : {'selection_criteria': {'id': 4, 'name': 'Ramcharan'}}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 21:02:21.964690
+                
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 21:02:21.968693
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.360096
+                End Time : 2021-06-03 21:02:22.328789
+                
+DEBUG:root: Data where id = 4 and name = "Ramcharan" is successfully deleted from database employe_dat4 and table emp_details45
+DEBUG:root:
+                Start time : 2021-06-03 21:02:22.328789
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : delete_data_from_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000214789CFD60>, 'db_name': 'employe_dat4', 'table_name': 'emp_details45', 'selection_col': 'where id = 4 and name = "Ramcharan"'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.044009
+                End Time : 2021-06-03 21:02:22.372798
+                
+DEBUG:root:Data where id = 4 and name = "Ramcharan" is successfully deleted from database employe_dat4 and table emp_details45
+DEBUG:root:
+                Start time : 2021-06-03 21:02:21.964690
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.412114
+                End Time : 2021-06-03 21:02:22.376804
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 21:02:22] "POST /sql_operations_api HTTP/1.1" 200 -
+ERROR:root: please select valid operation_to_perform
+DEBUG:root:
+                Start time : 2021-06-03 21:02:35.496906
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00
+                End Time : 2021-06-03 21:02:35.496906
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 21:02:35] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 21:02:58.578286
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.359231
+                End Time : 2021-06-03 21:02:58.937517
+                
+DEBUG:root: All records successfully downloaded at C:\Users\surya\Desktop\test2.csv
+DEBUG:root:
+                Start time : 2021-06-03 21:02:58.937517
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : download_data_from_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x0000021478A092E0>, 'db_name': 'carbontube', 'table_name': 'carbdetails45', 'selection_col': '', 'file_name_for_download': 'test2', 'file_download_location': 'C:\\Users\\surya\\Desktop'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:06.583691
+                End Time : 2021-06-03 21:03:05.521208
+                
+DEBUG:root:All records successfully downloaded at C:\Users\surya\Desktop\test2.csv
+DEBUG:root:
+                Start time : 2021-06-03 21:02:58.578286
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:06.946853
+                End Time : 2021-06-03 21:03:05.525139
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 21:03:05] "POST /sql_operations_api HTTP/1.1" 200 -
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 21:03:12.732634
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.148038
+                End Time : 2021-06-03 21:03:12.880672
+                
+ERROR:root:ERROR IN : download_data_from_table(), ERROR : Execution failed on sql 'select * from carbontube.carbdetail ;': 1146 (42S02): Table 'carbontube.carbdetail' doesn't exist
+DEBUG:root:
+                Start time : 2021-06-03 21:03:12.880672
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : download_data_from_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x00000214789CF160>, 'db_name': 'carbontube', 'table_name': 'carbdetail', 'selection_col': '', 'file_name_for_download': 'test2', 'file_download_location': 'C:\\Users\\surya\\Desktop'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.780207
+                End Time : 2021-06-03 21:03:13.660879
+                
+DEBUG:root:ERROR IN : download_data_from_table(), ERROR : Execution failed on sql 'select * from carbontube.carbdetail ;': 1146 (42S02): Table 'carbontube.carbdetail' doesn't exist
+DEBUG:root:
+                Start time : 2021-06-03 21:03:12.728631
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.936253
+                End Time : 2021-06-03 21:03:13.664884
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 21:03:13] "POST /sql_operations_api HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: caching_sha2_password
+DEBUG:root:
+                Start time : 2021-06-03 21:04:19.628586
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : establish_conn
+                Called Function Arguments : {'host': 'localhost', 'user': 'root', 'passwd': 'sbc738'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:00.376100
+                End Time : 2021-06-03 21:04:20.004686
+                
+DEBUG:root: All records successfully downloaded at C:\Users\surya\Desktop\test2.csv
+DEBUG:root:
+                Start time : 2021-06-03 21:04:20.004686
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : download_data_from_table
+                Called Function Arguments : {'mydb': <mysql.connector.connection.MySQLConnection object at 0x000001EFB02FF670>, 'db_name': 'carbontube', 'table_name': 'carbdetails45', 'selection_col': '', 'file_name_for_download': 'test2', 'file_download_location': 'C:\\Users\\surya\\Desktop'}
+                Memory : 136 Bytes
+                Execution Time : 0:00:05.820949
+                End Time : 2021-06-03 21:04:25.825635
+                
+DEBUG:root:All records successfully downloaded at C:\Users\surya\Desktop\test2.csv
+DEBUG:root:
+                Start time : 2021-06-03 21:04:19.624584
+                IP_adsress : 127.0.0.1
+                User Agent : PostmanRuntime/7.28.0
+                Called Fuction Name : post
+                Called Function Arguments : {}
+                Memory : 136 Bytes
+                Execution Time : 0:00:06.209054
+                End Time : 2021-06-03 21:04:25.833638
+                
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2021 21:04:25] "POST /sql_operations_api HTTP/1.1" 200 -
